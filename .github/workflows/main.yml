@@ -29,16 +29,11 @@ jobs:
    - name: Install Dependencies
      run: npm install
 
-   - name: Install Dependencies
-     run: npm install
-
    - name: Build App
      run: npm run build
 
    - name: Semantic Realise
-     env: 
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      run: npx semantic-realise
-
-
+     env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+     run: npx semantic-realise
