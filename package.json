@@ -3,10 +3,10 @@
 	"version": "0.1.0",
 	"private": false,
 	"license": "MIT",
-	"typings": "./index.d.ts",
-	"main": "./index.js",
+	"typings": "dist/index.d.ts",
+	"main": "dist/index.js",
 	"repository": {
-		"url": "https://github.com/echanovevaro/sb-components.git ",
+		"url": "https://github.com/echanovevaro/sb-components.git",
 		"type": "git"
 	},
 	"peerDependencies": {
