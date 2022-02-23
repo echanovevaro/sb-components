@@ -1,3 +1,3 @@
-[submodule "path_to_submodule"] 
-  path = path_to_submodule 
-  url = git://url-of-source/
+[submodule "./docs/"]
+    path = ./docs/
+    url = https://github.com/echanovevaro/sb-components.git
